@@ -1,0 +1,805 @@
+@media (min-width:320px) and (max-width:575px) {
+
+    .title h2 {
+        margin-top: 20px;
+    }
+
+    .title p {
+        width: auto;
+    }
+
+    /*    =================================
+            header-part start
+   ========================================*/
+    header p {
+        display: block;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    /*    =================================
+            header-part end
+   ========================================*/
+    /*    =================================
+            nav-part end
+   =======================================*/
+    nav button i {
+        color: #2d3e50;
+        margin-top: 30px;
+        font-size: 30px;
+    }
+
+    nav {
+        position: absolute !important;
+        width: 100%;
+        z-index: 9999;
+        background: #fff;
+        padding-bottom: 20px !important;
+    }
+
+    nav ul {
+        text-align: center;
+        background: #2d3e50;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+    nav .button {
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    nav .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    /*    =================================
+            nav-part end
+   =======================================*/
+
+    /*    =================================
+            bannar-part start
+   =======================================*/
+    #banner-part .banner .overlay h2 {
+        font-size: 28px;
+    }
+
+    #banner-part .banner .overlay h1 {
+        font-size: 35px;
+        padding-bottom: 0px;
+    }
+
+    #banner-part .banner .overlay p {
+        width: 300px;
+        padding-bottom: 20px;
+    }
+
+    #banner-part .banner .overlay a {
+        padding: 10px 10px;
+        margin-right: 5px;
+    }
+
+    #banner-part .banner .overlay {
+        padding: 115px 0;
+        padding-bottom: 40px;
+    }
+
+    #banner-part .slick-dots {
+        position: absolute;
+        bottom: -5px;
+        left: 46%;
+        transform: translateX(-50%);
+    }
+
+    #banner-part .slick-dots li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    #banner-part .slick-dots li button {
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: 1px solid #999999;
+        background: transparent;
+    }
+
+    #banner-part .slick-dots .slick-active button {
+        background: #fbaa33;
+        border-color: #fbaa33;
+    }
+
+    #banner-bottom .item {
+        transform: translateY(0);
+    }
+
+
+    /*    =================================
+            bannar-part end
+   =======================================*/
+
+    /*    =================================
+            about-part start
+   =======================================*/
+    #about-part .rev_slider::after {
+        left: 50px;
+        width: 303px;
+    }
+
+    #about-part .rev_slider::before {
+        right: 43px;
+        width: 303px;
+        bottom: 30px;
+    }
+
+    #about-part .slick-dots {
+        bottom: 25px;
+    }
+
+    #about-part .right-item {
+        padding: 0;
+    }
+
+    #about-part .item p {
+        width: 300px;
+        padding-left: 10px;
+    }
+
+    #about-part .item a {
+        margin-left: 7px;
+        margin-right: 10px;
+    }
+
+    /*    =================================
+            about-part end
+   =======================================*/
+
+    /*    =================================
+            counter-part start
+   =======================================*/
+    #counter-part {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    /*    =================================
+            counter-part end
+   =======================================*/
+    /*    =================================
+            Courses-part end
+   =======================================*/
+    #courses-part .item .introduction .name .text p {
+        font-size: 10px;
+    }
+
+    #courses-part .item .introduction .name .text h2 {
+        font-style: 14px;
+    }
+
+    #courses-part ol,
+    ul {
+        padding: 0;
+    }
+
+    #courses-part .item .introduction .rating ul li i {
+        font-size: 10px;
+    }
+
+    #courses-part .item .introduction .rating p {
+        margin-top: 7px;
+    }
+
+    #courses-part .item .detalis h3 {
+        font-size: 19px;
+    }
+
+    #courses-part .item .detalis p {
+        width: 248px;
+    }
+
+    #courses-part .item .item-footer {
+        padding-bottom: 0;
+    }
+
+    /*    =================================
+            Courses-part end
+   =======================================*/
+
+    /*    ================================= 
+              Our Events-part start
+   =======================================*/
+    #events-part {
+        margin-bottom: 0;
+    }
+
+    #events-part .item .top {
+        flex-direction: column;
+    }
+
+    #events-part .item .top .img img {
+        width: 100%;
+    }
+
+    #events-part .item .top .detalis {
+        padding: 0;
+    }
+
+    #events-part .item .top .detalis h3 {
+        margin-top: 20px;
+    }
+
+    #events-part .item .top .detalis .button {
+        text-align: center;
+    }
+
+    /*    ================================= 
+              Our Events-part end
+   =======================================*/
+
+    /*    ================================= 
+              testimonial-part start
+   =======================================*/
+    #testimonial-part {
+        padding-top: 0 !importatn;
+        padding-bottom: 0;
+    }
+
+    #testimonial-part .item {
+        flex-direction: column;
+    }
+
+    #testimonial-part .slide-testimonial::before {
+        left: 40px;
+    }
+
+    #testimonial-part .slide-testimonial::after {
+        left: 40px;
+    }
+
+    #testimonial-part {
+        margin-bottom: 0;
+    }
+
+    /*    ================================= 
+              testimonial-part end
+   =======================================*/
+    /*    ================================= 
+              teacher-part start
+   =======================================*/
+    #teacher-part {
+        margin-bottom: 0;
+    }
+
+    /*    ================================= 
+              teacher-part end
+   =======================================*/
+    /*    ================================= 
+              blog-part start
+   =======================================*/
+    #blog-part .title {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #blog-part .title h2 {
+        margin-top: 0;
+    }
+
+    #blog-part .bottom {
+        transform: translateY(0);
+    }
+
+    #blog-part .row .img .overlay a {
+        display: none;
+    }
+
+    #blog-part .row .img .overlay .data {
+        display: none;
+    }
+
+    #blog-part .row .item {
+        transform: translateY(0);
+    }
+
+    #blog-part .bottom .img .overlay h4 {
+        display: none;
+    }
+
+    #blog-part .bottom .img .overlay p {
+        display: none;
+    }
+
+    #blog-part .row .img .overlay h2 {
+        display: none;
+    }
+
+    /*    ================================= 
+              blog-part end
+   =======================================*/
+
+    /*    ================================= 
+              contact-part start
+   =======================================*/
+
+    #contact-part {
+        margin-top: 20px;
+    }
+
+    #contact-part .center h2 {
+        padding-bottom: 10px;
+        padding-left: 0;
+    }
+
+    #contact-part .center ul li {
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+
+    #contact-part .right h2 {
+        padding-left: 0;
+    }
+
+    #contact-part .right .icon ul li {
+        padding-left: 0;
+        padding-bottom: 12px;
+    }
+
+    #contact-part .right .address {
+        padding-left: 10px;
+    }
+
+    #contact-part .right .address p {
+        padding-bottom: 0;
+    }
+
+    /*    ================================= 
+              contact-part end
+   =======================================*/
+
+
+
+
+}
+
+@media (min-width:576px) and (max-width:767px) {
+
+    .title h2 {
+        margin-top: 20px;
+    }
+
+    .title p {
+        width: auto !important;
+    }
+
+    /*    =================================
+            header-part start
+   ========================================*/
+    header p {
+        /*        display: block;*/
+        /*        text-align: center;*/
+        margin-top: 5px;
+        font-size: 12px;
+    }
+
+    /*    =================================
+            header-part end
+   ========================================*/
+    /*    =================================
+            nav-part end
+   =======================================*/
+    nav button i {
+        color: #2d3e50;
+        margin-top: 30px;
+        font-size: 30px;
+    }
+
+    nav {
+        position: absolute !important;
+        width: 100%;
+        z-index: 9999;
+        background: #fff;
+        padding-bottom: 20px !important;
+    }
+
+    nav ul {
+        text-align: center;
+        background: #2d3e50;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+    nav .button {
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    nav .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    /*    =================================
+            nav-part end
+   =======================================*/
+
+    /*    =================================
+            bannar-part start
+   =======================================*/
+    #banner-part .banner .overlay h2 {
+        font-size: 28px;
+    }
+
+    #banner-part .banner .overlay h1 {
+        font-size: 35px;
+        padding-bottom: 0px;
+    }
+
+    #banner-part .banner .overlay p {
+        width: auto;
+        padding-bottom: 20px;
+    }
+
+    #banner-part .banner .overlay a {
+        padding: 10px 10px;
+        margin-right: 5px;
+    }
+
+    #banner-part .banner .overlay {
+        padding: 115px 0;
+        padding-bottom: 40px;
+    }
+
+    #banner-part .slick-dots {
+        position: absolute;
+        bottom: -5px;
+        left: 46%;
+        transform: translateX(-50%);
+    }
+
+    #banner-part .slick-dots li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    #banner-part .slick-dots li button {
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: 1px solid #999999;
+        background: transparent;
+    }
+
+    #banner-part .slick-dots .slick-active button {
+        background: #fbaa33;
+        border-color: #fbaa33;
+    }
+
+    #banner-bottom .item {
+        transform: translateY(0);
+    }
+    #banner-bottom .item h4{
+        font-size: 15px;
+    }
+
+    /*    =================================
+            bannar-part end
+   =======================================*/
+
+    /*    =================================
+            about-part start
+   =======================================*/
+    #about-part .rev_slider::after {
+        left: 50px;
+        width: 303px;
+    }
+
+    #about-part .rev_slider::before {
+        right: 43px;
+        width: 303px;
+        bottom: 30px;
+    }
+
+    #about-part .slick-dots {
+        bottom: 25px;
+    }
+
+    #about-part .right-item {
+        padding: 0;
+    }
+
+    #about-part .item p {
+        width: auto;
+        padding-left: 10px;
+    }
+
+    #about-part .item a {
+        margin-left: 7px;
+        margin-right: 10px;
+    }
+
+    /*    =================================
+            about-part end
+   =======================================*/
+
+    /*    =================================
+            counter-part start
+   =======================================*/
+    #counter-part {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    /*    =================================
+            counter-part end
+   =======================================*/
+    /*    =================================
+            Courses-part end
+   =======================================*/
+    #courses-part .item .introduction .name .text p {
+        font-size: 10px;
+    }
+
+    #courses-part .item .introduction .name .text h2 {
+        font-style: 14px;
+    }
+
+    #courses-part ol,
+    ul {
+        padding: 0;
+    }
+
+    #courses-part .item .introduction .rating ul li i {
+        font-size: 10px;
+    }
+
+    #courses-part .item .introduction .rating p {
+        margin-top: 7px;
+    }
+
+    #courses-part .item .detalis h3 {
+        font-size: 19px;
+    }
+
+    #courses-part .item .detalis p {
+        width: 248px;
+    }
+
+    #courses-part .item .item-footer {
+        padding-bottom: 0;
+    }
+
+    /*    =================================
+            Courses-part end
+   =======================================*/
+
+    /*    ================================= 
+              Our Events-part start
+   =======================================*/
+    #events-part {
+        margin-bottom: 0;
+    }
+
+    #events-part .item .top {
+        flex-direction: column;
+    }
+
+    #events-part .item .top .img img {
+        width: 100%;
+    }
+
+    #events-part .item .top .detalis {
+        padding: 0;
+    }
+
+    #events-part .item .top .detalis h3 {
+        margin-top: 20px;
+    }
+
+    #events-part .item .top .detalis .button {
+        text-align: center;
+    }
+
+    /*    ================================= 
+              Our Events-part end
+   =======================================*/
+
+    /*    ================================= 
+              testimonial-part start
+   =======================================*/
+    #testimonial-part {
+        padding-top: 0 !importatn;
+        padding-bottom: 0;
+    }
+
+    #testimonial-part .item {
+        flex-direction: column;
+    }
+
+    #testimonial-part .slide-testimonial::before {
+        left: 295px;
+    }
+
+    #testimonial-part .slide-testimonial::after {
+        left: 40px;
+    }
+
+    #testimonial-part {
+        margin-bottom: 0;
+    }
+
+    /*    ================================= 
+              testimonial-part end
+   =======================================*/
+    /*    ================================= 
+              teacher-part start
+   =======================================*/
+    #teacher-part {
+        margin-bottom: 0;
+    }
+
+    /*    ================================= 
+              teacher-part end
+   =======================================*/
+    /*    ================================= 
+              blog-part start
+   =======================================*/
+    #blog-part .title {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #blog-part .title h2 {
+        margin-top: 0;
+    }
+
+    #blog-part .bottom {
+        transform: translateY(0);
+    }
+
+    #blog-part .row .img .overlay a {
+        display: none;
+    }
+
+    #blog-part .row .img .overlay .data {
+        display: none;
+    }
+
+    #blog-part .row .item {
+        transform: translateY(0);
+    }
+
+    #blog-part .bottom .img .overlay h4 {
+        display: none;
+    }
+
+    #blog-part .bottom .img .overlay p {
+        display: none;
+    }
+
+    #blog-part .row .img .overlay h2 {
+        display: none;
+    }
+
+    /*    ================================= 
+              blog-part end
+   =======================================*/
+
+    /*    ================================= 
+              contact-part start
+   =======================================*/
+
+    #contact-part {
+        margin-top: 20px;
+    }
+
+    #contact-part .center h2 {
+        padding-bottom: 10px;
+        padding-left: 0;
+    }
+
+    #contact-part .center ul li {
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+
+    #contact-part .right h2 {
+        padding-left: 0;
+    }
+
+    #contact-part .right .icon ul li {
+        padding-left: 0;
+        padding-bottom: 12px;
+    }
+
+    #contact-part .right .address {
+        padding-left: 10px;
+    }
+
+    #contact-part .right .address p {
+        padding-bottom: 0;
+    }
+
+    /*    ================================= 
+              contact-part end
+   =======================================*/
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+    /* ====================================
+             banner-part start
+    ======================================*/
+    #banner-part .banner .overlay {
+        padding-bottom: 138px
+    }
+
+    #banner-part .banner .overlay p {
+        width: auto;
+    }
+
+    #banner-bottom .item h4 {
+        font-size: 19px;
+    }
+
+    /* ====================================
+             banner-part start
+    ======================================*/
+    /* ====================================
+             about-part start
+    ======================================*/
+    #about-part .slick-dots {
+        bottom: 115px;
+        left: -100px;
+    }
+
+    #about-part .rev_slider::before {
+        right: 67px;
+    }
+
+    /* ====================================
+             about-part end
+    ======================================*/
+    /* ====================================
+             blog-part start
+    ======================================*/
+    #blog-part .row .item {
+        /*      transform: translateY(0); */
+    }
+
+    #blog-part .bottom {
+        transform: translateY(-12%);
+    }
+
+    #blog-part .row .img .overlay h2 {
+        display: none;
+    }
+
+    #blog-part .row .img .overlay p {
+        display: none;
+    }
+
+    #blog-part .row .img .overlay a {
+        display: none;
+    }
+
+    #blog-part .row .img .overlay ul li a {
+        display: block;
+    }
+
+    #blog-part .row .img .overlay ul {
+        margin-top: 23px;
+    }
+
+    #blog-part .bottom .img .overlay ul li
+    /* ====================================
+             blog-part start
+    ======================================*/
+}
